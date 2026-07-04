@@ -1,0 +1,93 @@
+body {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+/* header and footer areas */
+.menu { padding: 0; }
+.menu li { display: inline-block; }
+.article-meta, .menu a {
+  text-decoration: none;
+  color: #000000;
+  padding: 5px;
+  border-radius: 5px;
+}
+.menu a { background: #42a5f5 }
+.article-meta { background: #cacaca; color: #1a1a1a; }
+.menu a:hover {
+  background-color: #ff00ff;
+  color: #000000;
+}
+
+.article-meta .author, .article-meta .date {
+  font-size: 0.95em;       /* 글씨 크기를 본문(1em)보다 살짝 작게 조절 */
+  font-weight: 500;        /* 너무 두껍지 않게 중간 굵기로 설정 */
+  color: #000000;          /* 본문 글씨(#e0e0e0)보다 살짝 흐리게 하여 시선 분산 방지 */
+  margin-top: 0.3em;       /* 위아래 여백을 줄여서 조밀하게 배치 */
+  margin-bottom: 0.3em;
+  display: inline-block;   /* 필요 시 한 줄에 나란히 배치될 수 있도록 설정 */
+}
+.article-meta author {
+  margin-right: 15px;      
+}
+
+.menu, .article-meta, footer { text-align: center; }
+h1 .title {
+  display: block;       /* 마진이 정확히 적용되도록 블록 요소로 변경 */
+  margin-bottom: 0.2em; /* 아래쪽 마진 축소 */
+}
+.article-meta h1 {
+  line-height: 1.0;     /* 글자 높이 딱 맞게 줄간격 제거 */
+  margin-bottom: 0px;   /* 주황색 마진 제거 */
+  margin-top: 0.5em !important;
+}
+.article-meta h2.author {
+  line-height: 1.0;     /* 글자 높이 딱 맞게 줄간격 제거 */
+  margin-top: 0px;      /* 주황색 마진 제거 */
+}
+
+footer a { text-decoration: none; }
+hr {
+  border-style: dashed;
+  color: #ddd;
+}
+
+a {
+  color: #64b5f6;
+}
+a:hover {
+  color: #ff00ff;
+}
+
+/* code */
+pre {
+  background-color: #2d2d2d;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #eee;
+  padding: 1em;
+  overflow-x: auto;
+}
+/* code { background: #f9f9f9; } */
+pre code { background: none; }
+
+/* misc elements */
+img, iframe, video { max-width: 100%; }
+main { hyphens: auto; }
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee; }
