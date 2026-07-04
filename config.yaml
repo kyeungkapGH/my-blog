@@ -1,6 +1,6 @@
-baseurl: "http://64.176.227.180/blog/"  # please update this to your actual URL
+baseurl: "/"  # please update this to your actual URL
 locale: "en-us"
-title: "잘쉬고있음청년"
+title: "Cojimo.zip"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
