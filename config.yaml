@@ -1,4 +1,4 @@
-baseurl: "/"  # please update this to your actual URL
+baseurl: "/blog/"  # please update this to your actual URL
 locale: "en-us"
 title: "Cojimo.zip"
 theme: "hugo-xmin"
