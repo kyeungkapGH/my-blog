@@ -1,6 +1,6 @@
 baseurl: "/"  # please update this to your actual URL
 locale: "en-us"
-title: "Cojimo.zip"
+title: "Cojimo(숨고르기 청년)의 ZIP"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
