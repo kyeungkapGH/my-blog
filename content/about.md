@@ -4,7 +4,7 @@ author: Cojimo
 ---
 
 ## Thank you for stopping by!
-여기까지 찾아와주셔서 감사합니다! 오늘이 당신께 해복한 하루가 됐으면 좋겠습니다. 모든 여정에 행운을 빕니다.
+여기까지 찾아와주셔서 감사합니다! 오늘이 당신께 행복한 하루가 됐으면 좋겠습니다. 모든 여정에 행운을 빕니다.
  
 I hope today brings you plenty of smiles. Wishing you all the best on your journey, wherever it takes you! :)
 
